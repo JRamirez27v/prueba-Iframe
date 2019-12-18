@@ -9,6 +9,7 @@
 	})(window,document,'script','dataLayer','GTM-TV8Q544');</script>
 	<!-- End Google Tag Manager -->
 	<title>Prueba iframe</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body style="margin: 0; padding: 0;">
 
@@ -18,9 +19,9 @@
 	<!-- End Google Tag Manager (noscript) -->
 	
 	 <script type="text/javascript">
-
-        window.onload = function() {
-dataLayer.push({ 
+		 
+		 $(function() {
+    dataLayer.push({ 
 'event': 'orderPurchase', 
 'tipo_flujo' : '{tipo de flujo}'
 'dimension5': '{tipo cupon}', 
@@ -52,8 +53,7 @@ dataLayer.push({
 } 
 } 
 }); 
-           
-        }
+})
     </script>
 	
 	<h2>Prueba iframe</h2>
