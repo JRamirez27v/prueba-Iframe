@@ -16,7 +16,41 @@
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TV8Q544"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
+	<script>
+	dataLayer.push({ 
+'event': ' orderPurchase', 
+'tipo_flujo' : '{tipo de flujo}'
+'dimension5': '{tipo cupon}', 
+'dimension6': '{medio de pago}', 
+'dimension7': '{monto de descuento}',  
+'ecommerce': { 
+'currencyCode': '{codigo de moneda}', 
+'purchase': { 
+'actionField': { 
+'id': '{id de la transaccon}', 
+'affiliation': '{affiliation}', 
+'revenue': '{monto total}', 
+'tax': {impuesto}, 
+'shipping': {costo de envio}, 
+'coupon': '{cupon}',
+'option': '{option}'		       
+}, 
+'products': [{ 
+'name': '{nombre del producto}', 
+'id': '{id del producto}', 
+'price': '{precio de producto}', 
+'brand': '{marca del producto}', 
+'category': '{categoría del producto}', 
+'variant': '{variante del producto}', 
+'quantity': {cantidad del producto},
+'dimension2': '{nombre campaña}',
+'dimension3': '{codigo sap}' 
+}] 
+} 
+} 
+}); 
 
+	</script>
 	<h2>Prueba iframe</h2>
 	<p>Lo que viene es un iframe</p>
 
